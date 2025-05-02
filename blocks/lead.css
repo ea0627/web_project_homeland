@@ -1,6 +1,6 @@
 .lead{
-    width: 984;
-    height: 983;
+    width: 984px;
+    height: 983px;
     top: 194px;
     left: 148px;
 
@@ -36,4 +36,32 @@
     width: 100%;
     height: auto;
     display: block;
+}
+
+@media screen and (max-width: 768px) {
+    .lead {
+        width: 768px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .lead__title {
+        font-size: 75px;
+        line-height: 79px;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .lead__subtitle {
+        font-size: 30px;
+        line-height: 36px;
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    .lead__image {
+        width: 100%;
+        height: auto;
+      }
 }

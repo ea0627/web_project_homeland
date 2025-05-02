@@ -32,3 +32,22 @@
     line-height: 163%;
     letter-spacing: 0%;
 }
+
+@media screen and (max-width: 768px) {
+
+    .intro {
+        top: 1041px;
+        width: 720px;
+        height: 573px;
+        display: flex;
+    }
+
+    .intro__title {
+        font-size: 45px;
+        line-height: 49px;
+    }
+
+    .intro__text {
+        font-size: 24px;
+    }
+}
