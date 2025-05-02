@@ -10,30 +10,13 @@
     :root { font-family: InterVariable, sans-serif; }
   }
 
-  body {
-    margin: 0;
-    padding: 0;
-    background-color: #2A2C2F;
-    color: #ffffff;
-    font-family: "Inter", sans-serif;
-  }
-  
-  .page {
-    max-width: 100%;
+.page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     margin: 0 auto;
-    padding: 0 20px;
-  }
-
-.header,
-.lead,
-.intro,
-.footer {
-  margin-bottom: 80px;
-}
-
-@media screen and (max-width: 768px) {
-    .page {
-        width: 768px;
-        margin: 0 auto;
-    }
+    padding-top: 32px;
+    max-width: 1200px;
+    background-color: #2A2C2F;
+    color: #fff;
 }

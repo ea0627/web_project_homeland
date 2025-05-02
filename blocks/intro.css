@@ -1,53 +1,31 @@
 .intro{
-    display: flex;
-    flex-direction: column;
+    padding-top: 100px;
     width: 830px;
-    height: 607px;
-    top: 1269px;
-    left: 148px;
+    gap: 20px;
 }
 
 .intro__title{
-    width: 720px;
-    height: 200px;
-    color: #FFFFFF;
     font-size: 54px;
-    margin-bottom: 20px;
+    font-weight: 900;
+    line-height: 58px;
+    margin: 0;
 }
 
 .intro__text{
     font-size: 24px;
-    line-height: 36px;
     font-weight: 400;
-    margin-bottom: 16px;
+    line-height: 34px;
+    margin-top: 20px;
+    letter-spacing: 0;
 }
 
 .intro__text_author{
-    text-align: end;
+    text-align: right;
 }
 
 .intro__text_description{
-    font-weight: 400;
     font-size: 16px;
+    font-weight: 400;
     line-height: 163%;
-    letter-spacing: 0%;
-}
-
-@media screen and (max-width: 768px) {
-
-    .intro {
-        top: 1041px;
-        width: 720px;
-        height: 573px;
-        display: flex;
-    }
-
-    .intro__title {
-        font-size: 45px;
-        line-height: 49px;
-    }
-
-    .intro__text {
-        font-size: 24px;
-    }
+    letter-spacing: 0;
 }

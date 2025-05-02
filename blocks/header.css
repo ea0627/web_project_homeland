@@ -1,35 +1,18 @@
-.header {
+.header{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    padding-top: 34px;
-    left: 513px;
-    width: 1280px;
+    
 }
 
-.header__logo {
+.header__logo{
     width: 32px;
     height: 32px;
-    margin-top: 40px;
-    display: block; 
 }
 
 .header__title{
-    color: #FFFFFF;
-    font-size: 24px;
-    font-weight: bold;
-    margin: 20px 0 0;
-}
-
-@media screen and (max-width: 768px) {
-
-    .header {
-        width: 768px;
-    }
-
-    .header__title {
-        font-size: 16px;
-        text-align: center;
-    }
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
 }
