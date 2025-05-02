@@ -10,12 +10,23 @@
     :root { font-family: InterVariable, sans-serif; }
   }
 
-body {
-    background-color:#2A2C2F;
-    width: 1280px;
-    height: 2008px;
-    display: flex;
-    flex-direction: column;
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #2A2C2F;
     color: #ffffff;
     font-family: "Inter", sans-serif;
+  }
+  
+  .page {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+.header,
+.lead,
+.intro,
+.footer {
+  margin-bottom: 80px;
 }

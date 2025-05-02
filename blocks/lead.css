@@ -18,6 +18,8 @@
     line-height: 100px;
     margin-bottom: 20px;
     text-align: center;
+    font-weight: bold;
+    
 }
 
 .lead__subtitle{
@@ -31,8 +33,7 @@
 }
 
 .lead__image{
-    width: 984;
-    height: 615;
-    top: 562px;
-    left: 148px;
+    width: 100%;
+    height: auto;
+    display: block;
 }
