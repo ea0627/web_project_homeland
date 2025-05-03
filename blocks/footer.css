@@ -18,3 +18,11 @@
     color: #ccc;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .footer__text {
+    text-align: center;
+    font-size: 14px;
+    padding: 20px 0;
+  }
+}
