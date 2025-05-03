@@ -1,0 +1,26 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding-top: 32px;
+  max-width: 1280px;
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  /* .page {
+      padding: 0 0px;
+      box-sizing: border-box;
+  } */
+
+  .page {
+
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 0 16px;
+      box-sizing: border-box;
+  }
+
+
+}
