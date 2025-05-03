@@ -1,0 +1,23 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Archivos temporales
+*.tmp
+*.swp
+*.swo
+
+# Configuración del editor
+.vscode/
+.idea/
+
+# Node.js (en caso de usar herramientas como npm para dependencias o builds)
+node_modules/
+
+# Archivos de entorno (si llegas a usar variables privadas)
+.env
+.env.local
+.env.*.local
