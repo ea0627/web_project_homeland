@@ -1,6 +1,6 @@
 .intro{
     padding-top: 100px;
-    width: 830px;
+    /* width: 830px; */
     gap: 20px;
 }
 
@@ -32,7 +32,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .intro{
-    padding: 0 5px;
+    padding: 0 15px;
     box-sizing: border-box;
   }
 
@@ -68,17 +68,36 @@
 
 @media screen and (max-width: 767px) {
 
+  .intro {
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
   .intro__title {
     font-size: 32px;
+    line-height: 34px;
+    letter-spacing: 0;
     margin-bottom: 12px;
     width: 100%;
   }
 
-  .intro__text,
-  .intro__text_author,
-  .intro__text_description {
+  .intro__text {
+    font-size: 24px;
+    line-height: 30px;
+    width: 100%;
+    letter-spacing: 0;
+  }
+
+  .intro__text_author {
     font-size: 24px;
     line-height: 34px;
-    width: 100%;
+    letter-spacing: 0;
+  }
+
+  .intro__text_description {
+    font-size: 16px;
+    line-height: 163%;
+    letter-spacing: 0;
   }
 }
