@@ -5,14 +5,6 @@
   /* padding: 40px 20px; */
 }
 
-/* .location__card {
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
-  margin-top: 50px;
-  margin-bottom: 40px;
-} */
-
 .location__card
 {
   display: grid;
@@ -41,6 +33,7 @@
 .location__image {
   width: 90%;
   height: 90%;
+  box-shadow: 10px 10px 25px #000000;
   /* display: block; */
   /* margin-bottom: 10px; */
 }
@@ -62,13 +55,13 @@
   cursor: pointer;
   font-size: 18px;
   padding: 13px 20px;
+  box-shadow: 10px 10px 25px #000000;
 }
 
 .location__button:hover {
   background: linear-gradient(90deg, #003A7B 0%, #003A7B 100%);
+  box-shadow: #000000;
 }
-
-
 
 .location__artist, .location__description {
   font-size: 18px;
@@ -79,7 +72,6 @@
 .location__artist {
   align-self: center;
 }
-
 
 @media screen and (max-width: 767px) {
   .location {
