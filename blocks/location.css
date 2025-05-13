@@ -12,10 +12,16 @@
   grid-template-rows: repeat(1, auto);
 }
 
-.location__container {
+.location__containerartist{
   display: flex;
-  flex-direction: row;
-  /* width: 50%; */
+  flex-direction: column;
+  /* gap: 20px; */
+  justify-content: center;
+}
+
+.location__containerdescription {
+  display: flex;
+  flex-direction: column;
   gap: 20px;
 }
 
@@ -43,7 +49,6 @@
   cursor: pointer;
 }
 
-
 .location__button {
   margin-top: 50px;
   width: 60%;
@@ -67,11 +72,12 @@
   margin: 0;
 }
 
-.location__artist {
+/* .location__artist {
   align-self: center;
-}
+  text-align: justify;
+} */
 
-span {
+.span {
   color: #AAAAAA;
   font-size: 14px;
   text-transform: uppercase;
