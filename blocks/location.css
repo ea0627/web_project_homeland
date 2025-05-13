@@ -60,7 +60,6 @@
 
 .location__button:hover {
   background: linear-gradient(90deg, #003A7B 0%, #003A7B 100%);
-  box-shadow: #000000;
 }
 
 .location__artist, .location__description {
@@ -71,6 +70,13 @@
 
 .location__artist {
   align-self: center;
+}
+
+span {
+  color: #AAAAAA;
+  font-size: 14px;
+  text-transform: uppercase;
+  line-height: 100%;
 }
 
 @media screen and (max-width: 767px) {
@@ -114,6 +120,7 @@
     height: auto;
     display: block;
     margin-bottom: 10px;
+    box-shadow: none;
   }
 
   .location__button {
