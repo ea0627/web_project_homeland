@@ -47,7 +47,7 @@
 .location__button {
   margin-top: 50px;
   width: 60%;
-  background: linear-gradient(90deg, #0278FE 0%, #003A7B 100%);
+  background-image: linear-gradient(90deg, #0278FE 0%, #003A7B 100%);
   /* background-color: #103d80; */
   color: white;
   border: none;
