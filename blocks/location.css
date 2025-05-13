@@ -60,7 +60,7 @@
 }
 
 .location__button:hover {
-  background: linear-gradient(90deg, #0278FE 0%, #003a7b40 99.98%);
+  background: linear-gradient(90deg, #0278FE40 0%, #003a7b40 99.98%);
 }
 
 .location__artist, .location__description {
