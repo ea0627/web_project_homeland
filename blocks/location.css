@@ -2,7 +2,6 @@
   display: grid;
   padding-top: 50px;
   grid-gap: 100px;
-  /* padding: 40px 20px; */
 }
 
 .location__card
@@ -40,8 +39,6 @@
   width: 90%;
   height: 90%;
   box-shadow: 10px 10px 25px #000000;
-  /* display: block; */
-  /* margin-bottom: 10px; */
 }
 
 .location__image:hover {
@@ -72,12 +69,7 @@
   margin: 0;
 }
 
-/* .location__artist {
-  align-self: center;
-  text-align: justify;
-} */
-
-.span {
+.location__artisttitle {
   color: #AAAAAA;
   font-size: 14px;
   text-transform: uppercase;
