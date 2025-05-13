@@ -48,7 +48,6 @@
   margin-top: 50px;
   width: 60%;
   background: linear-gradient(0.25turn, #0278FE, #003A7B);
-
   color: white;
   border: none;
   border-radius: 4px;
@@ -59,7 +58,7 @@
 }
 
 .location__button:hover {
-  background: linear-gradient(90deg, #003A7B 0%, #003A7B 100%);
+  background: #003A7B;
 }
 
 .location__artist, .location__description {
